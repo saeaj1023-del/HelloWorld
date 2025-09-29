@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\work\\20250929\\",
+  "WorkspaceRootPath": "C:\\work\\HELLOWORLD\\20250929\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7C6DB76A-68A2-4BB6-97CE-D533ED9D023B}|20250929.vcxproj|C:\\work\\20250929\\20250929.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{7C6DB76A-68A2-4BB6-97CE-D533ED9D023B}|20250929.vcxproj|C:\\work\\HELLOWORLD\\20250929\\20250929.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{7C6DB76A-68A2-4BB6-97CE-D533ED9D023B}|20250929.vcxproj|solutionrelative:20250929.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "20250929.cpp",
-              "DocumentMoniker": "C:\\work\\20250929\\20250929.cpp",
+              "DocumentMoniker": "C:\\work\\HELLOWORLD\\20250929\\20250929.cpp",
               "RelativeDocumentMoniker": "20250929.cpp",
-              "ToolTip": "C:\\work\\20250929\\20250929.cpp",
+              "ToolTip": "C:\\work\\HELLOWORLD\\20250929\\20250929.cpp",
               "RelativeToolTip": "20250929.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-09-28T23:58:37.929Z",
               "EditorCaption": ""

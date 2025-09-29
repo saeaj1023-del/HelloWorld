@@ -1,20 +1,76 @@
-// 20250929.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
 #include <iostream>
+#include <conio.h>
+#include <windows.h>
+
+using namespace std;
+
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    int PlayerX = 1;
+    int PlayerY = 1;
+    char PlayerShape = 'P';
+
+    int MonsterX = 1;
+    int MonsterY = 1;
+    char MonsterShape = 'M';
+
+    int Map[25][25] = {
+
+    };
+
+    while (true)
+    {
+        int KeyCode = _getch();
+
+        if (KeyCode == 'w')
+        {
+            PlayerY--;
+        }
+        else if (KeyCode == 'a')
+        {
+            PlayerX--;
+        }
+        else if (KeyCode == 's')
+        {
+            PlayerY++;
+        }
+        else if (KeyCode == 'd')
+        {
+            PlayerX++;
+        }
+        else if (KeyCode == 'q')
+        {
+            break;
+        }
+
+        system("cls");
+
+        for (int Y = 0; Y < 25; Y++)
+        {
+            for (int X = 0; X < 25; X++)
+            {
+                if (PlayerX == X && PlayerY == Y)
+                {
+                    cout << PlayerShape;
+                }
+                else if (MonsterX == X && MonsterY == Y)
+                {
+                    cout << MonsterShape;
+                }
+                else if (Map[Y][X] == 0)
+                {
+                    cout << " ";
+                }
+                else if (Map[Y][X] == 1)
+                {
+                    cout << "*";
+                }
+            }
+            cout << '\n';
+        }
+    }
+
 }
 
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
 
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
